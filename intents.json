@@ -16,7 +16,7 @@
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Pranjal.", "I'm Pranjal!", "I'm Pranjal aka Mr. Steal your girl", "Your mom call me Pb, you can call me Pranjal"],
+         "responses": ["You can call me Pranjal.", "I'm Pranjal!"],
          "context_set": ""
         },
             {"tag": "hobbies",
@@ -29,18 +29,8 @@
          "responses": ["I am born and brought up in Delhi"],
          "context_set": ""
         },
-        {"tag": "dad",
-         "patterns": ["What is the name of your dad?", "Who is your dad?", "Name of dad?"],
-         "responses": ["My dad's name is Mr. Hari Om Sharma "],
-         "context_set": ""
-        },
-        {"tag": "mom",
-         "patterns": ["What is the name of your mom?", "Who is your mom?", "Name of mom?" , "Who gave you birth?"],
-         "responses": ["My mom's name is Mrs. Madhu Sharma "],
-         "context_set": ""
-        },
         {"tag": "laugh",
-         "patterns": ["lol", "XD", "xd", "you funny", "bc"],
+         "patterns": ["lol", "XD", "xd", "you funny"],
          "responses": ["lol"],
          "context_set": ""
         }
