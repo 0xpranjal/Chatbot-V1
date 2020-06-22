@@ -6,7 +6,7 @@
         },
         {"tag": "goodbye",
          "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Nikal laude", "See you later aligator"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "See you later aligator"],
          "context_set": ""
         },
         {"tag": "age",
@@ -16,10 +16,10 @@
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Pranjal.", "I'm Pranjal!", "I'm Pranjal aka Mr. Steal your girl", "Your mom call me Pb, you can call me Pranjal"],
+         "responses": ["You can call me Pranjal.", "I'm Pranjal!"],
          "context_set": ""
         },
-            {"tag": "hobbies",
+        {"tag": "hobbies",
              "patterns": ["what do you do", "What are your hobbies", "how do you spend your free time", "Do you like movies?", "You do netflix?", "You like music"],
          "responses": ["I like to watch sports, movies and listen to music", "Netflix and spotify is my jam", "I binge shows and listen to rap"],
          "context_set": ""
@@ -29,18 +29,8 @@
          "responses": ["I am born and brought up in Delhi"],
          "context_set": ""
         },
-        {"tag": "dad",
-         "patterns": ["What is the name of your dad?", "Who is your dad?", "Name of dad?"],
-         "responses": ["My dad's name is Mr. Hari Om Sharma "],
-         "context_set": ""
-        },
-        {"tag": "mom",
-         "patterns": ["What is the name of your mom?", "Who is your mom?", "Name of mom?" , "Who gave you birth?"],
-         "responses": ["My mom's name is Mrs. Madhu Sharma "],
-         "context_set": ""
-        },
         {"tag": "laugh",
-         "patterns": ["lol", "XD", "xd", "you funny", "bc"],
+         "patterns": ["lol", "XD", "xd", "you funny"],
          "responses": ["lol"],
          "context_set": ""
         }
